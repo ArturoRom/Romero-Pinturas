@@ -65,11 +65,23 @@ footer a:hover{
 }
 
 
+/* Estilizando o formulário */
+.form {
+    color: rgba(253, 252, 252, 0.712);
+    width: 50%; /* Define a largura do formulário */
+    margin: auto; /* Centraliza o formulário horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 
-
-
-
-
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5); /* Adiciona uma sombra branca com opacidade */
+    background-color: rgba(255, 255, 255, 0.1); /* Define o fundo do formulário com opacidade */
+    border-radius: 10px; /* Adiciona bordas arredondadas */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Adiciona uma borda sólida com opacidade */
+    box-sizing: border-box; /* Inclui o tamanho da borda na largura e altura do formulário */
+}
 
 
 
